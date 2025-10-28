@@ -27,9 +27,6 @@ export default function Register() {
       <div className={`${MAX_CONTAINER_WIDTH} mx-auto p-6`}>
         <div className="bg-white p-6 rounded-xl shadow-md w-full max-w-md">
           <h2 className="text-2xl font-bold mb-4 text-center">Register</h2>
-          <p className="text-center text-sm text-gray-600 mb-4">
-            Demo credentials: {DEMO_CREDENTIALS.EMAIL} / {DEMO_CREDENTIALS.PASSWORD}
-          </p>
           <form onSubmit={handleSubmit} className="space-y-4">
             <FormInput
               type="email"
@@ -45,7 +42,7 @@ export default function Register() {
               onChange={(e) => setPassword(e.target.value)}
               required
             />
-            <button className="w-full bg-success text-white py-2 rounded-lg">
+            <button className="w-full bg-blue-500 text-white py-2 rounded-lg">
               Sign Up
             </button>
           </form>

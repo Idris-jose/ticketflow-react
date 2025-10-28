@@ -27,9 +27,6 @@ export default function Login() {
       <div className={`${MAX_CONTAINER_WIDTH} mx-auto p-6`}>
         <div className="bg-white p-6 rounded-xl shadow-md w-full max-w-md">
           <h2 className="text-2xl font-bold mb-4 text-center">Login</h2>
-          <p className="text-center text-sm text-gray-600 mb-4">
-            Demo credentials: {DEMO_CREDENTIALS.EMAIL} / {DEMO_CREDENTIALS.PASSWORD}
-          </p>
           <form onSubmit={handleSubmit} className="space-y-4">
             <FormInput
               type="email"
