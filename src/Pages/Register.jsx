@@ -51,7 +51,7 @@ export default function Register() {
           </form>
           <p className="mt-4 text-center text-sm">
             Already have an account?{" "}
-            <a href="/auth/login" className="text-primary font-medium">
+            <a href="/auth/login" className="text-[#2563eb] font-medium">
               Login
             </a>
           </p>

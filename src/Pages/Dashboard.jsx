@@ -74,15 +74,7 @@ export default function Dashboard() {
         </ResponsiveContainer>
       </div>
 
-      {/* Navigation */}
-      <div className="text-center">
-        <button
-          onClick={() => navigate("/tickets")}
-          className="bg-primary text-white px-6 py-2 rounded-xl"
-        >
-          Manage Tickets
-        </button>
-      </div>
+     
     </div>
   );
 }

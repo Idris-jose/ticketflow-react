@@ -61,7 +61,7 @@ export default function Tickets() {
         </div>
 
         <div className="mt-6 flex space-x-4">
-          <button type="submit" className="bg-primary text-white px-6 py-2 rounded-xl">
+          <button type="submit" className="bg-blue-500 text-white px-6 py-2 rounded-xl">
             {editing ? "Update Ticket" : "Create Ticket"}
           </button>
           {editing && (

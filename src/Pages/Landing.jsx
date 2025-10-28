@@ -6,14 +6,14 @@ export default function Landing() {
   return (
     <div className="relative overflow-hidden bg-gradient-to-b from-white to-blue-50 min-h-screen">
       {/* Decorative Circle */}
-      <div className="absolute top-16 -left-20 w-64 h-64 bg-blue-200 rounded-full opacity-40 blur-2xl"></div>
-      <div className="absolute bottom-10 -right-16 w-72 h-72 bg-orange-200 rounded-full opacity-40 blur-2xl"></div>
+      <div className="absolute top-16 -left-20 w-64 h-64 bg-blue-500 rounded-full opacity-40 blur-2xl"></div>
+      <div className="absolute bottom-10 -right-16 w-72 h-72 bg-orange-500 rounded-full opacity-40 blur-2xl"></div>
 
       {/* Hero Section */}
       <section className={`${MAX_CONTAINER_WIDTH} mx-auto px-6 py-24 flex flex-col md:flex-row items-center justify-between`}>
         <div className="md:w-1/2 space-y-6 z-10">
           <h1 className="text-5xl font-extrabold text-gray-900 leading-tight">
-            Ticket<span className="text-primary">Flow</span>
+            Ticket<span className="text-[#2563eb]">Flow</span>
           </h1>
           <p className="text-gray-600 text-lg">
             Manage your team’s issues seamlessly — create, track, and resolve
@@ -22,13 +22,13 @@ export default function Landing() {
           <div className="flex gap-4 mt-6">
             <Link
               to="/auth/login"
-              className="bg-primary text-white px-6 py-3 rounded-xl shadow hover:opacity-90 transition"
+              className="bg-[#2563eb] text-white px-6 py-3 rounded-xl shadow hover:opacity-90 transition"
             >
               Login
             </Link>
             <Link
               to="/auth/register"
-              className="border border-primary text-primary px-6 py-3 rounded-xl hover:bg-primary/10 transition"
+              className="border border-[#2563eb] text-[#2563eb] px-6 py-3 rounded-xl hover:bg-[#2563eb]/10 transition"
             >
               Get Started
             </Link>
@@ -78,7 +78,7 @@ export default function Landing() {
             key={i}
             className="bg-white rounded-2xl shadow p-6 hover:shadow-lg transition"
           >
-            <h3 className="text-xl font-semibold mb-2 text-primary">
+            <h3 className="text-xl font-semibold mb-2 text-[#2563eb]">
               {f.title}
             </h3>
             <p className="text-gray-600">{f.text}</p>

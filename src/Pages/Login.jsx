@@ -45,13 +45,13 @@ export default function Login() {
               onChange={(e) => setPassword(e.target.value)}
               required
             />
-            <button className="w-full bg-primary text-white py-2 rounded-lg">
+            <button className="w-full bg-[#2563eb] text-white py-2 rounded-lg">
               Login
             </button>
           </form>
           <p className="mt-4 text-center text-sm">
             Don’t have an account?{" "}
-            <a href="/auth/register" className="text-primary font-medium">
+            <a href="/auth/register" className="text-[#2563eb] font-medium">
               Register
             </a>
           </p>
